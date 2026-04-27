@@ -1,6 +1,6 @@
 # eine Liste von Zahlen im Speicher (RAM)
 # Der Speicher reserviert Platz für die Liste [1, 2, 3, 4, 5] und weist jeder Zahl eine Adresse zu.
-numbers = [1, 2, 3, 4, 5]
+numbers = [1, 2, 3, 4, 5, 9]
 
 # Die CPU beginnt, die Schleife auszuführen.
 # Sie liest die Anweisung: "Für jede Zahl in der Liste, drucke sie aus."
