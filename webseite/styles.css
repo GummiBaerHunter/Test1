@@ -1,3 +1,22 @@
 body{
-    background-color: darkorange;
+    background-color: rgb(255, 140, 0);
+    padding: 5%;
+}
+p{
+    text-align: right;
+}
+h1{
+    text-align: center;
+}
+input{
+    text-align: center;
+}
+h3{
+    text-align: left;
+}   
+.bodoni-moda-<uniquifier> {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
