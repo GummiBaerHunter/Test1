@@ -9,6 +9,25 @@
 <body>
     <a href="index.html">zurück</a>
     <h1>hier code eingeben</h1>
-<input type="Text" value="Code">
+    <input type="password" id="passwordInput" placeholder="Enter password">
+    <button onclick="checkPassword()">Confirm</button>
+    <p id="message"></p>
+
+    <script>
+        const correctPassword = "9341"; // Change this to your desired password
+
+        function checkPassword() {
+            const userInput = document.getElementById("passwordInput").value;
+            const messageElement = document.getElementById("message");
+            const url = "https://docs.google.com/document/d/1FL1YhmV73O3t-emA3Dkc01o-CSZDcxHLe-X-13gQ9o0/edit?usp=sharing"
+            if (userInput === correctPassword) {
+                window.location.href = url;
+                messageElement.style.color = "green";
+            } else {
+                messageElement.textContent = "Du kommst nicht rein haha.";
+                messageElement.style.color = "red";
+            }
+        }
+    </script>
 </body>
 </html>
